@@ -1,7 +1,5 @@
 # Nancy's new market app
 
-- inspired by clever programmer https://www.youtube.com/watch?v=fi0nQc25xAw
-
 #### setting up
 
 - npm create vite@latest nancyMarket -- --template react
