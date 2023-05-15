@@ -30,7 +30,7 @@
 - Add Header.jsx
 - In Home.jsx, the first component is Banner, which consists of several images that can rotate by the two buttons (carousel), for sliding images, use 400vw or use 'hidden' and 'block' both ok. I prefer the latter.
 - In home.jsx, the second component is Products.jsx, useLoader is needed for save data and load data, so react-router-dom is installed.
-- In home.jsx, the last component is Footer.jsx. --------TODO????? form should be <FORM> or not?????? -------
+- In home.jsx, the last component is Footer.jsx. 
 - make responsive ( make footer flex-col for below sm, header links to a hambuger)
 - install axios for fetch data from fakestoreapi.com/products, loader is needed for <Home> to load data, so add a loader to Home route with aysnc()=>await axios.get(url), then useLoaderData() to get data in <Products>;
 - display the data in a card format.
