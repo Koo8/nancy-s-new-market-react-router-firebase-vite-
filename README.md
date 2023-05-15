@@ -68,3 +68,6 @@
 - for localStorage to store the cart state, in reducer initialState, use getItem('products') || []; in context, for all actions, use setItem to update the localStorage before call dispatch function, although this project I used 'action' in the place of 'dispatch'.
 - create Login page, use Firebase for authentication => npm install firebase. Created UserContext and UserReducer to persist the User's state. In order to remember the login info of the user, use LocalStorage.setItem in useEffect() within UserContextProvider, so that each userInfo within the context changes , the localStorage will get set new User info.
 - only after sign in can a user click and preceed with payment, the btn of checkout in Cart page needs to check if a user has logged in yet.
+
+  
+  #### Deployed @ netlify https://nancynewmarket.netlify.app/
