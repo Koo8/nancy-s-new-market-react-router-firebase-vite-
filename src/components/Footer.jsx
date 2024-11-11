@@ -26,7 +26,7 @@ const Footer = () => {
         <div className='flex flex-col gap-4'>
           <img src={logo} alt='' className='w-24 rounded-3xl' />
           <div className='hover:text-skin-prime_yellow'>
-            <Link href='/'>@ nancynewmarket.com</Link>
+            <a href='https://sailingdigital.online'>Blog</a>
           </div>
           <img
             src={paymentCards}

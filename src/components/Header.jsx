@@ -51,7 +51,8 @@ const Header = () => {
             <LinkTab>pages</LinkTab>
             <LinkTab>shop</LinkTab>
             <LinkTab>element</LinkTab>
-            <LinkTab>blog</LinkTab>
+            {/* <LinkTab>blog</LinkTab> */}
+            <a href="https://sailingdigital.online" className={` text-skin-base font-bold hover:text-skin-prime_blue hover:underline underline-offset-4 decoration-2 cursor-pointer duration-300 `}>blog</a>
             <LinkTab handleclick='/cart' custom={`sm:hidden`}>
               Go to cart ({itemCount} items )
             </LinkTab>
